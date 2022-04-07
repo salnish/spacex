@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+.content-background1{
+    background-image: url(images/home.png);
+}
+.content-background2{
+    background-image: url(images/Transporter1.png);
+}
+.content-background3{
+    background-image: url(images/Starlink2.png);
+}
+.content-background4{
+    background-image: url(images/starship3.png);
+}.content-background5{
+    background-image: url(images/foot4.png);
+}
+.font{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffff;
+    
+}
+.container{
+    width: 100%;
+    height:800px;
+    background: black;
+   
+}
+.header{
+    float: left;
+    padding-left: 120px;
+    width: 100%;
+    position: fixed;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color:transparent;
+}
+.logo{
+    width: 226px;
+    height: 22px;
+    margin-right: -22px;
+    margin-top: -10px;
+    cursor: pointer;
+
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    
+}
+.option{
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.shop{
+    margin-left: 200px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.menu{
+    height: 30px;
+    width: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.contents{
+
+}
+.content{
+    width: 100%;
+    height: 570px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.left-part{
+    float:left;
+    width: 40%;
+    height: 280px;
+    margin-left: 50px;
+}
+.p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.h1{
+    margin-top: -5px;
+    font-size: 40px;
+    font-weight: bold; 
+}
+.button{
+    background: none;
+    height: 55px;
+    width: 170px;
+    border: 2px solid #ffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items:center;
+    background-color:black;
+    
+
+}
+.copy{
+    margin-left: 270px;
+    margin-right: 45px;
+    font-size: 12px;
+}
+.foot{
+    margin-right: 45px;
+    font-size: 12px;
+    cursor: pointer;
+}
